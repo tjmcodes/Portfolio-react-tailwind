@@ -6,10 +6,10 @@ import venuesartistslandingpage from '../assets/venuesartistslandingpage.png'
 
 const Portfolio = () => {
   return (
-    <div name='Portfolio' className="px-0 sm:px-12 w-full md:h-screen text-cream bg-dark">
+    <div name='Portfolio' className="px-0 sm:px-12 w-full h-full text-cream bg-dark">
       
       {/* Title */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 py-24 flex flex-col justify-center ">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-cream border-accent4">Portfolio</p>
           <p className="text-green py-6">Check out my recent projects below</p>
@@ -31,13 +31,13 @@ const Portfolio = () => {
                 <a href="https://tjmcodes.github.io/Ultimate-Tic-Tac-Toe/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/tjmcodes/Ultimate-Tic-Tac-Toe">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Code</button>
                 </a>
               </div>
             </div>
           </div>
-          <p>some text</p>
+          <span className="text-lg font-light flex items-end">🕹 First solo student project at GA. Grid based turn-play game developed using HTML, CSS and JavaScript.</span>
 
          
           
@@ -54,12 +54,13 @@ const Portfolio = () => {
                 <a href="https://main--ephemeral-salmiakki-7db874.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/tjmcodes/Project-2">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Code</button>
                 </a>
               </div>
             </div>
           </div>
+          <span className="text-lg font-light flex items-end">🍸 Cocktail party app. Choose a cocktail that you would like to make, follow the instructions and listen to music to enjoy your prepared cocktail.</span>
 
           
           {/* Project 3 */}
@@ -75,12 +76,13 @@ const Portfolio = () => {
                 <a href="https://myfoundsounds-v2.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/tjmcodes/Project-3-MERN-Frontend">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Code</button>
                 </a>
               </div>
             </div>
           </div>
+          <span className="text-lg font-light flex items-end">🎧 My Found Sounds is an application that allows registered users to upload and download sounds posted by other users. It utilises the MERN stack (MongoDB, Express, React, Node.js).</span>
           
           {/* Project 4 */}
           <div style={{backgroundImage: `url(${venuesartistslandingpage})`}} className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto portfolio-div">
@@ -95,12 +97,13 @@ const Portfolio = () => {
                 <a href="https://venuesandartists.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/tjmcodes/Project-4-Frontend">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Code</button>
                 </a>
               </div>
             </div>
           </div>
+          <span className="text-lg font-light flex items-end">🎭 This fourth and last project at GA involved building a full-stack web application in just over two weeks (pair programming, part-time schedule). It utilises python and flask as a backend and JavaScript, React and TailwindCSS on the frontend.</span>
 
         </div>
 

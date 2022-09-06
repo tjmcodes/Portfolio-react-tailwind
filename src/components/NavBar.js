@@ -13,7 +13,7 @@ const NavBar = () => {
   }
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items0center px-4 bg-dark text-cream">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-dark text-cream">
       
       {/* Logo */}
       <div className="py-6">
@@ -25,6 +25,12 @@ const NavBar = () => {
         <li className="hover:underline hover:decoration-red hover:text-red">
           <Link to="Hero" smooth={true} duration={500}>
             Home
+          </Link>
+        </li>
+        
+        <li className="hover:underline hover:decoration-red hover:text-red">
+          <Link to="About" smooth={true} duration={500} >
+            About
           </Link>
         </li>
         
@@ -60,6 +66,12 @@ const NavBar = () => {
         <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to="Hero" smooth={true} duration={500}>
             Home
+          </Link>
+        </li>
+        
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to="About" smooth={true} duration={500}>
+            About
           </Link>
         </li>
         
