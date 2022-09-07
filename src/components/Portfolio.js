@@ -21,7 +21,7 @@ import figma from '../assets/figma.png';
 
 const Portfolio = () => {
   return (
-    <div name='Portfolio' className="px-0 lg:px-12 w-full h-full text-cream bg-dark">
+    <div name='Portfolio' className="px-4 sm:px-12  w-full h-full text-cream bg-dark">
       
       {/* Title */}
       <div className="max-w-[1200px] mx-auto py-24 flex flex-col justify-center">
@@ -52,7 +52,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-between">
+          <div className="mb-14 flex flex-col justify-between">
             <span className="text-lg font-light flex items-start py-4">🕹 First solo student project at GA. Grid based turn-play game developed using HTML, CSS and JavaScript.</span>
               <div className="flex flex-row space-x-16 bg-white">
                 <div className="p-2 mx-4 px-3 flex flex-col items-center text-dark hover:scale-110 duration-500">
@@ -94,7 +94,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-between"> 
+          <div className="mb-14 flex flex-col justify-between">
             <span className="text-lg font-light flex items-start py-4">🍸 Cocktail party app. Choose a cocktail that you would like to make, follow the instructions and listen to music to enjoy your prepared cocktail.</span>
               <div className="flex flex-row space-x-16 bg-white">
                 <div className="p-2 mx-4 px-3 flex flex-col items-center text-dark hover:scale-110 duration-500">
@@ -134,7 +134,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-between">
+          <div className="mb-14 flex flex-col justify-between">
             <span className="text-lg font-light flex items-start">🎧 My Found Sounds is an application that allows registered users to upload and download sounds posted by other users. It utilises the MERN stack (MongoDB, Express, React, Node.js).</span>
               <div className="flex flex-row space-x-16 bg-white">
                 <div className="p-2 mx-4 px-3 flex flex-col items-center text-dark hover:scale-110 duration-500">
@@ -172,7 +172,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-between">
+          <div className="mb-14 flex flex-col justify-between">
             <span className="text-lg font-light flex items-start ">🎭 This fourth and last project at GA involved building a full-stack web application in just over two weeks (pair programming, part-time schedule). It utilises python and flask as a backend and JavaScript, React and TailwindCSS on the frontend.</span>
               <div className="flex flex-row space-x-16 bg-white">
                 <div className="p-2 mx-4 px-3 flex flex-col items-center text-dark hover:scale-110 duration-500">

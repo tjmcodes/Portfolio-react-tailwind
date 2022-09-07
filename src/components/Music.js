@@ -2,7 +2,7 @@ import React from 'react'
 
 const Music = () => {
   return (
-    <div name='Music' className="px-0 lg:px-12 w-full h-full text-cream bg-dark">
+    <div name='Music' className="px-4 sm:px-12  w-full h-full text-cream bg-dark">
       
       {/* Title */}
       <div className="max-w-[1000px] mx-auto py-24 flex flex-col justify-center">

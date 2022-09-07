@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 const About = () => {
   
   return (
-    <div name="About" className="px-0 sm:px-12 w-full h-screen bg-dark">
+    <div name="About" className="px-4 sm:px-12  w-full h-screen bg-dark py-24">
 
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-5 flex flex-col justify-center">
