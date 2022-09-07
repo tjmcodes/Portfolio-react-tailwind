@@ -6,10 +6,10 @@ import venuesartistslandingpage from '../assets/venuesartistslandingpage.png'
 
 const Portfolio = () => {
   return (
-    <div name='Portfolio' className="px-0 sm:px-12 w-full h-full text-cream bg-dark">
+    <div name='Portfolio' className="px-0 lg:px-12 w-full h-full text-cream bg-dark">
       
       {/* Title */}
-      <div className="max-w-[1000px] mx-auto p-4 py-24 flex flex-col justify-center ">
+      <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-cream border-accent4">Portfolio</p>
           <p className="text-green py-6">Check out my recent projects below</p>
@@ -18,16 +18,16 @@ const Portfolio = () => {
         
 
         {/* GRID CONTAINER */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-24 justify-items-center">
           {/* Project 1 */}
-          <div style={{backgroundImage: `url(${UTTlandingpage})`}} className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto portfolio-div">          
+          <div style={{backgroundImage: `url(${UTTlandingpage})`}} className="shadow-lg shadow-black group container rounded-md flex justify-center items-center portfolio-div">          
             {/* HOVER EFFECTS */}
             <div className="text-center rounded-lg px-4 py-3 m-2 opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Ultimate Tic-Tac-Toe Game
               </span>
 
-              <div classname="pt-8 text-center">
+              <div className="pt-8 text-center">
                 <a href="https://tjmcodes.github.io/Ultimate-Tic-Tac-Toe/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
@@ -37,7 +37,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <span className="text-lg font-light flex items-end">🕹 First solo student project at GA. Grid based turn-play game developed using HTML, CSS and JavaScript.</span>
+          <span className="text-lg font-light flex items-start py-4">🕹 First solo student project at GA. Grid based turn-play game developed using HTML, CSS and JavaScript.</span>
 
          
           
@@ -50,7 +50,7 @@ const Portfolio = () => {
                 Cocktail Party App (React)
               </span>
 
-              <div classname="pt-8 text-center">
+              <div className="pt-8 text-center">
                 <a href="https://main--ephemeral-salmiakki-7db874.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
@@ -60,7 +60,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <span className="text-lg font-light flex items-end">🍸 Cocktail party app. Choose a cocktail that you would like to make, follow the instructions and listen to music to enjoy your prepared cocktail.</span>
+          <span className="text-lg font-light flex items-start py-4">🍸 Cocktail party app. Choose a cocktail that you would like to make, follow the instructions and listen to music to enjoy your prepared cocktail.</span>
 
           
           {/* Project 3 */}
@@ -72,7 +72,7 @@ const Portfolio = () => {
                 Sound Design Social App
               </span>
 
-              <div classname="pt-8 text-center">
+              <div className="pt-8 text-center">
                 <a href="https://myfoundsounds-v2.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
@@ -82,7 +82,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <span className="text-lg font-light flex items-end">🎧 My Found Sounds is an application that allows registered users to upload and download sounds posted by other users. It utilises the MERN stack (MongoDB, Express, React, Node.js).</span>
+          <span className="text-lg font-light flex items-start py-4">🎧 My Found Sounds is an application that allows registered users to upload and download sounds posted by other users. It utilises the MERN stack (MongoDB, Express, React, Node.js).</span>
           
           {/* Project 4 */}
           <div style={{backgroundImage: `url(${venuesartistslandingpage})`}} className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto portfolio-div">
@@ -93,7 +93,7 @@ const Portfolio = () => {
                 Venues and Artists
               </span>
 
-              <div classname="pt-8 text-center">
+              <div className="pt-8 text-center">
                 <a href="https://venuesandartists.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
@@ -103,7 +103,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <span className="text-lg font-light flex items-end">🎭 This fourth and last project at GA involved building a full-stack web application in just over two weeks (pair programming, part-time schedule). It utilises python and flask as a backend and JavaScript, React and TailwindCSS on the frontend.</span>
+          <span className="text-lg font-light flex items-start py-4">🎭 This fourth and last project at GA involved building a full-stack web application in just over two weeks (pair programming, part-time schedule). It utilises python and flask as a backend and JavaScript, React and TailwindCSS on the frontend.</span>
 
         </div>
 

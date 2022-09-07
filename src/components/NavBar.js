@@ -21,7 +21,7 @@ const NavBar = () => {
       </div>
 
       {/* Menu */}
-      <ul className="hidden md:flex space-x-2 items-center">
+      <ul className="hidden lg:flex space-x-2 items-center">
         <li className="hover:underline hover:decoration-red hover:text-red">
           <Link to="Hero" smooth={true} duration={500}>
             Home
@@ -47,6 +47,12 @@ const NavBar = () => {
         </li>
         
         <li className="hover:underline hover:decoration-red hover:text-red">
+          <Link to="Music" smooth={true} duration={500}>
+            Music
+          </Link>
+        </li>
+        
+        <li className="hover:underline hover:decoration-red hover:text-red">
           <Link to="Contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -56,7 +62,7 @@ const NavBar = () => {
       
 
       {/* Mobile Bars */}
-      <div onClick={handleClick} className="md:hidden z-10 py-6">
+      <div onClick={handleClick} className="lg:hidden z-10 py-6">
         {!menu ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -84,6 +90,12 @@ const NavBar = () => {
         <li className='py-6 text-4xl'>
         <Link onClick={handleClick} to="Skills" smooth={true} duration={500}>
             Skills
+          </Link>
+        </li>
+
+        <li className='py-6 text-4xl'>
+        <Link onClick={handleClick} to="Music" smooth={true} duration={500}>
+            Music
           </Link>
         </li>
 

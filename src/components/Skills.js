@@ -20,86 +20,86 @@ const Skills = () => {
     <div name="Skills" className="px-0 sm:px-12 w-full md:h-screen bg-dark  text-cream py-4">
       
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 py-24 flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-accent4">Skills</p>
           <p className="py-4 text-green">These are the technologies I have been learning</p>
         </div>
 
-        <div className="w-full bg-dark grid grid-cols-2 sm:grid-cols-5 gap-4 text-center font-light p-8">
+        <div className="w-full bg-dark grid grid-cols-2 md:grid-cols-5 gap-4 text-center font-light p-8">
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={html} alt="HTML icon" />
-            <p>HTML</p>
+            <p className="text-lg lg:text-xl">HTML</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={css3} alt="CSS icon" />
-            <p>CSS</p>
+            <p className="text-lg lg:text-xl">CSS</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={javascript} alt="javascript icon" />
-            <p>JAVASCRIPT</p>
+            <p className="text-lg lg:text-xl">JAVASCRIPT</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={python} alt="python icon" />
-            <p>PYTHON</p>
+            <p className="text-lg lg:text-xl">PYTHON</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={nodejs} alt="Node.js icon" />
-            <p>Node.Js</p>
+            <p className="text-lg lg:text-xl">Node.Js</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={mongodb} alt="mongodb icon" />
-            <p>MongoDB</p>
+            <p className="text-lg lg:text-xl">MongoDB</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={express} alt="express icon" />
-            <p>Express</p>
+            <p className="text-lg lg:text-xl">Express</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={reactlight} alt="REACT icon" />
-            <p>REACT</p>
+            <p className="text-lg lg:text-xl">REACT</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={postgresql} alt="postgresql icon" />
-            <p>PostgreSQL</p>
+            <p className="text-lg lg:text-xl">PostgreSQL</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={flask2} alt="Flask icon" />
-            <p>FLASK</p>
+            <p className="text-lg lg:text-xl">FLASK</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={tailwind} alt="Tailwind icon" />
-            <p>Tailwind</p>
+            <p className="text-lg lg:text-xl">Tailwind</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={vscode} alt="vscode icon" />
-            <p>VS Code</p>
+            <p className="text-lg lg:text-xl">VS Code</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={github} alt="vscode icon" />
-            <p>GitHub</p>
+            <p className="text-lg lg:text-xl">GitHub</p>
           </div>
 
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={jira} alt="jira icon" />
-            <p>Jira</p>
+            <p className="text-lg lg:text-xl">Jira</p>
           </div>
           
           <div className="bg-white text-dark shadow-md shadow-black hover:scale-110 duration-500">
             <img className="w-20 mx-auto py-2" src={figma} alt="figma icon" />
-            <p>Figma</p>
+            <p className="text-lg lg:text-xl">Figma</p>
           </div>
 
           
