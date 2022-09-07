@@ -4,6 +4,7 @@ import About from "./components/About.js";
 import Portfolio from "./components/Portfolio.js";
 import Skills from "./components/Skills.js";
 import Contact from "./components/Contact.js";
+import Music from "./components/Music.js";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Portfolio />
       <Skills />
+      <Music />
       <Contact />
     </div>
   );
