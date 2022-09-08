@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {Link} from 'react-scroll';
+import logo from '../assets/logo.png';
 
 const NavBar = () => {
 
@@ -16,8 +17,9 @@ const NavBar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-dark text-cream">
       
       {/* Logo */}
-      <div className="py-6">
-        Teresa.Morini
+      <div className="py-6 flex flex-row items-center ">
+        <img src={logo} alt="logo" width="50" height="50" />
+        {/* Teresa.Morini */}
       </div>
 
       {/* Menu */}
@@ -67,7 +69,7 @@ const NavBar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <ul className={!menu ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-dark flex flex-col justify-center items-center"}>
+      <ul className={!menu ? "hidden" : "absolute top-0 left-0 w-full h-screen !bg-dark flex flex-col justify-center items-center"}>
         
         <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to="Hero" smooth={true} duration={500}>
