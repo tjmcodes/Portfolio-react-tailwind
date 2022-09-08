@@ -27,9 +27,45 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-bottom: 50px;
-  height: 240px;
+  margin-bottom: 1px;
+  height: 370px;
   /* max-width: 500px; */  
+}
+
+
+@media screen and (max-width: 1024px) {
+  .portfolio-div {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .portfolio-div {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .portfolio-div {
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .portfolio-div {
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .portfolio-div {
+    height: 240px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .portfolio-div {
+    height: 160px;
+  }
 }
 
 .video {
@@ -37,9 +73,30 @@
   height: 208px;
 }
 
+@media screen and (max-width: 820px) {
+  .video {
+    width: 440px;
+    height: 256px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .video {
+    width: 440px;
+    height: 256px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .video {
+    width: 400px;
+    height: 196px;
+  }
+}
+
 @media screen and (max-width: 280px) {
   .video {
-    width: 248px;
+    width: 320px;
     height: 196px;
   }
 }

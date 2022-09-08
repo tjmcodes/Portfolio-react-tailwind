@@ -14,19 +14,19 @@ const Music = () => {
         
 
         {/* GRID CONTAINER */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8  justify-items-center ">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8  justify-items-center ">
             <iframe className="px-10 video rounded-xl" src="https://www.youtube.com/embed/mrc1MrxpLns"title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            <p className="bg-gray-900  rounded-lg py-2 text-sm w-full h-full lg:text-base font-light flex items-start px-4">This heuristic inquiry draws on information shared by co-researchers and utilises compositional practices to create interactive and adaptive compositions for neurofeedback using Ableton live.  Musical neurofeedback is a way to enhance brain activity. You can learn to control your state of mind, which affects the brainwaves and causes a change in the music. Resulting in synergy, to induce an intended state of arousal.</p>
+            <p className="bg-gray-900 sm:text-small rounded-lg py-2 text-xs md:text-base w-full h-full lg:text-base font-light flex items-start px-4">This heuristic inquiry draws on information shared by co-researchers and utilises compositional practices to create interactive and adaptive compositions for neurofeedback using Ableton live.  Musical neurofeedback is a way to enhance brain activity. You can learn to control your state of mind, which affects the brainwaves and causes a change in the music. Resulting in synergy, to induce an intended state of arousal.</p>
 
             <iframe className="px-10 video rounded-xl" src="https://www.youtube.com/embed/Awr8spPCHN0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            <p className="bg-gray-900  rounded-lg py-2 text-sm w-full h-full lg:text-base font-light flex items-start px-4">A video documenting the processes of sound design undertaken to realise the audio and soundtrack for a first-person exploration video game. This was created as part of my Masters Degree in Electronic Music Composition at the University of West London.
+            <p className="bg-gray-900 sm:text-small rounded-lg py-2 text-xs md:text-base w-full h-full lg:text-base font-light flex items-start px-4">A video documenting the processes of sound design undertaken to realise the audio and soundtrack for a first-person exploration video game. This was created as part of my Masters Degree in Electronic Music Composition at the University of West London.
 </p>
 
             <iframe className="px-10 video rounded-xl" src="https://www.youtube.com/embed/We7WLAKCuTE"title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            <p className="bg-gray-900  rounded-lg py-2 text-sm w-full h-full lg:text-base font-light flex items-start px-4">An original composition inspired by the sounds of the self checkout machine.  This track was created a while back but this version has been updated and does not include the &#39;Cashback&#39; sample. </p>
+            <p className="bg-gray-900 sm:text-small rounded-lg py-2 text-xs md:text-base w-full h-full lg:text-base font-light flex items-start px-4">An original composition inspired by the sounds of the self checkout machine.  This track was created a while back but this version has been updated and does not include the &#39;Cashback&#39; sample. </p>
 
             <iframe className="px-10 video rounded-xl" src="https://www.youtube.com/embed/JwPwgKhRG1k?start=16" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            <p className="bg-gray-900  rounded-lg py-2 text-sm w-full h-full lg:text-base font-light flex items-start px-4">An arrangement of &#39;Travels&#39; by Pat Metheny performed on a 5 string bass guitar. This is an example of how I like to enjoy my downtime. I often turn to music when I need to decompress or have a brain break. 
+            <p className="bg-gray-900 sm:text-small rounded-lg py-2 text-xs md:text-base w-full h-full lg:text-base font-light flex items-start px-4">An arrangement of &#39;Travels&#39; by Pat Metheny performed on a 5 string bass guitar. This is an example of how I like to enjoy my downtime. I often turn to music when I need to decompress or have a brain break. 
 </p>
             
           </div> 
