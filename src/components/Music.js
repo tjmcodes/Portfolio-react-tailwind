@@ -23,10 +23,10 @@ const Music = () => {
 </p>
 
             <iframe className="px-10 video rounded-xl" src="https://www.youtube.com/embed/We7WLAKCuTE"title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            <p className="bg-gray-900  rounded-lg py-2 text-sm w-full h-full lg:text-base font-light flex items-start px-4">An original composition inspired by the sounds of the self checkout machine.  This track was created a while back but this version has been updated and doesn't include the "Cashback" sample. </p>
+            <p className="bg-gray-900  rounded-lg py-2 text-sm w-full h-full lg:text-base font-light flex items-start px-4">An original composition inspired by the sounds of the self checkout machine.  This track was created a while back but this version has been updated and does not include the &#39;Cashback&#39; sample. </p>
 
             <iframe className="px-10 video rounded-xl" src="https://www.youtube.com/embed/JwPwgKhRG1k?start=16" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            <p className="bg-gray-900  rounded-lg py-2 text-sm w-full h-full lg:text-base font-light flex items-start px-4">An arrangement of 'Travels' by Pat Metheny performed on a 5 string bass guitar. This is an example of how I like to enjoy my downtime. I often turn to music when I need to decompress or have a brain break. 
+            <p className="bg-gray-900  rounded-lg py-2 text-sm w-full h-full lg:text-base font-light flex items-start px-4">An arrangement of &#39;Travels&#39; by Pat Metheny performed on a 5 string bass guitar. This is an example of how I like to enjoy my downtime. I often turn to music when I need to decompress or have a brain break. 
 </p>
             
           </div> 
