@@ -17,6 +17,9 @@ module.exports = {
         xl: '24px',
         xxl: '32px',
       },
+      fontFamily: {
+        'sans': ['SF Pro', 'Arial', 'sans-serif']
+      }
     },
   },
   plugins: [],

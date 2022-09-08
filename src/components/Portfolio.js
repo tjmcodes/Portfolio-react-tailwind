@@ -13,11 +13,7 @@ import expresslight from '../assets/expresslight.png';
 import reactlight from '../assets/reactlight.png';
 import postgresql from '../assets/postgresql.png';
 import flasklight from '../assets/flasklight.png';
-// import vscode from '../assets/vscode.png';
-// import jira from '../assets/jira.png';
-// import tailwind from '../assets/tailwind.png';
-// import github from '../assets/github.png';
-// import figma from '../assets/figma.png';
+
 
 const Portfolio = () => {
   return (
