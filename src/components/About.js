@@ -22,7 +22,9 @@ const About = () => {
           <img className="sm:float-right sm:w-60 " src={photo} alt="Teresa"/>
           After recently graduating from University of West London with a Masters in Electronic Music Composition where I dedicated my practice to analysing brain activity whilst listening to sound design pieces and compositions I had created from my home studio, the natural step  was to learn software development. </p>
 
-          <p className="text-cream py-4 max-w-[700px] font-light text-sm text-center sm:text-left sm:text-lg">I enrolled   onto General Assembly’s remote software engineering course part-time to learn the   fundamentals in programming and applied the learning by creating four projects. I am  excited to be looking for my first role in the industry as a Junior Software Developer   where I can leverage the skills and experience gained so far with my passion for developing software.</p>
+          <p className="text-cream py-4 max-w-[700px] font-light text-sm text-center sm:text-left sm:text-lg">I enrolled onto General Assembly’s remote software engineering course part-time to learn the fundamentals in programming and applied the learning by creating four projects. I am  excited to be looking for my first role in the industry as a Junior Software Developer   where I can leverage the skills and experience gained so far with my passion for developing software.</p>
+          <p className="text-cream py-4 max-w-[700px] font-light text-sm text-center sm:text-left sm:text-lg">Soft skills: Communication, Teamwork, Problem-solving, Emotional Intelligence, Adaptability </p> 
+        
         </div>
 
       <div>
