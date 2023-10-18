@@ -6,11 +6,11 @@ import venuesartistslandingpage from '../assets/venuesartistslandingpage.png'
 
 const Portfolio = () => {
   return (
-    <div name='Portfolio' className="px-0 sm:pt-24  sm:px-4 w-full h-screen text-cream bg-dark">
+    <div name='Portfolio' className="px-0 sm:pt-64 sm:px-2 w-full h-screen text-cream bg-dark">
 
       {/* Title */}
-      <div className="max-w-[1000px] mx-auto p-4 pt-48 flex flex-col justify-center h-screen">
-        <div className="pb-8">
+      <div className="max-w-[1000px] mx-auto p-4 pt-48 sm:pt-72 flex flex-col justify-center h-screen">
+        <div className="pb-8 sm:pb-2">
           <p className="text-4xl font-bold inline border-b-4 text-cream border-accent4">Portfolio</p>
           <p className="text-green py-6">Check out my recent projects below</p>
         </div>
@@ -18,7 +18,7 @@ const Portfolio = () => {
 
 
         {/* GRID CONTAINER */}
-        <div className=" grid sm:grid-cols-1 md:grid-cols-2 gap-8 ">
+        <div className=" grid sm:grid-cols-1 md:grid-cols-2 gap-8 sm:pb-48">
           {/* Project 1 */}
           <div style={{backgroundImage: `url(${UTTlandingpage})`}} className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto portfolio-div sm:mx-auto ">
             {/* HOVER EFFECTS */}

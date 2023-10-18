@@ -24,9 +24,9 @@
   background-position: center;
   height: 275px;
   /* For Mobile Phones Portrait or Landscape View */
-  @media screen and (max-width: 390px){
-    height: 170px;
-    background-size: contain;
+  @media screen and (max-width: 414px){
+    height: 175px;
+    background-size: 75%;
     background-color: rgba(0, 0, 0, 0.444);
     color: black;
   }

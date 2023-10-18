@@ -50,7 +50,7 @@ const NavBar = () => {
 
 
       {/* Mobile Bars */}
-      <div onClick={handleClick} className="sm:hidden md:hidden z-10 py-6">
+      <div onClick={handleClick} className=" md:hidden z-10 py-6">
         {!menu ? <FaBars /> : <FaTimes />}
       </div>
 

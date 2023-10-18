@@ -17,10 +17,10 @@ import figma from '../assets/figma.png';
 
 const Skills = () => {
   return (
-    <div name="Skills" className="px-0 sm:px-4 sm:p-24 w-full md:h-screen bg-dark  text-cream py-4">
+    <div name="Skills" className="px-0 sm:px-4 w-full sm:pt-72 md:h-screen bg-dark  text-cream py-4">
 
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col sm:pt-96 justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col sm:pt-48 justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-accent4">Skills</p>
           <p className="py-4 text-green">These are the technologies I have been learning</p>
