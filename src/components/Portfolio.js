@@ -6,10 +6,10 @@ import venuesartistslandingpage from '../assets/venuesartistslandingpage.png'
 
 const Portfolio = () => {
   return (
-    <div name='Portfolio' className="px-0 sm:px-12 w-full md:h-screen text-cream bg-dark">
+    <div name='Portfolio' className="px-0 sm:px-12 w-full h-screen text-cream bg-dark">
 
       {/* Title */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 pt-48 flex flex-col justify-center h-screen">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-cream border-accent4">Portfolio</p>
           <p className="text-green py-6">Check out my recent projects below</p>
@@ -27,7 +27,7 @@ const Portfolio = () => {
                 Ultimate Tic-Tac-Toe Game
               </span>
 
-              <div classname="pt-8 text-center">
+              <div className="pt-8 text-center">
                 <a href="https://tjmcodes.github.io/Ultimate-Tic-Tac-Toe/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                 Sound Design Social App
               </span>
 
-              <div classname="pt-8 text-center">
+              <div className="pt-8 text-center">
                 <a href="https://myfoundsounds-v2.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
@@ -91,7 +91,7 @@ const Portfolio = () => {
                 Venues and Artists
               </span>
 
-              <div classname="pt-8 text-center">
+              <div className="pt-8 text-center">
                 <a href="https://venuesandartists.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>

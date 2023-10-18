@@ -1,5 +1,6 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import {Link} from 'react-scroll';
 
 const Hero = () => {
   return (
@@ -14,7 +15,9 @@ const Hero = () => {
 
         <div>
           <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-accent4 hover:border-accent4">
-          View Recent Projects
+          <Link to="Portfolio" smooth={true} duration={500}>
+            View Projects
+          </Link>
           <span className="animate-bounce">
             <HiArrowNarrowRight className="rotate-90" />
           </span>
