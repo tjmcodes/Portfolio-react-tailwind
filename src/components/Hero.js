@@ -13,12 +13,11 @@ const Hero = () => {
         <p className="text-cream py-4 max-w-[700px] text-sm sm:text-base">After recently graduating from University of West London with a Masters in Electronic Music Composition where I dedicated my practice to analysing brain activity whilst listening to sound design pieces and compositions I had created from my home studio, the natural step was to learn software development. I enrolled onto General Assembly’s remote software engineering course part-time to learn the fundamentals in programming and applied the learning by creating four projects. I am looking for my first role in the industry as a Junior Software Developer where I can leverage the skills and experience gained so far with my passion for developing software.</p>
 
         <div>
-          <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-accent4 hover:border-accent4"> 
+          <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-accent4 hover:border-accent4">
           View Recent Projects
           <span className="animate-bounce">
             <HiArrowNarrowRight className="rotate-90" />
           </span>
-
           </button>
         </div>
 
