@@ -22,9 +22,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 300px;
-
+  height: 275px;
+  /* For Mobile Phones Portrait or Landscape View */
+  @media screen and (max-width: 390px){
+    height: 170px;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.444);
+    color: black;
+  }
 }
+
+
+
 
 .portfolio-div:hover {
   background-image: linear-gradient(to right, rgba(112, 157, 255, 0.8), hsla(242, 74%, 61%, 0.8)) !important;

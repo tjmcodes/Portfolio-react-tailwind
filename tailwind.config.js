@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}",],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -15,6 +15,12 @@ module.exports = {
         lg: '16px',
         xl: '24px',
         xxl: '32px',
+      },
+      screens: {
+        'sm': '390px',
+        'md': '640px',
+        'lg': '1280px',
+        'xl': '1920px',
       },
     },
   },

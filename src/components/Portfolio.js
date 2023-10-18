@@ -6,7 +6,7 @@ import venuesartistslandingpage from '../assets/venuesartistslandingpage.png'
 
 const Portfolio = () => {
   return (
-    <div name='Portfolio' className="px-0 sm:px-12 w-full h-screen text-cream bg-dark">
+    <div name='Portfolio' className="px-0 sm:pt-24  sm:px-4 w-full h-screen text-cream bg-dark">
 
       {/* Title */}
       <div className="max-w-[1000px] mx-auto p-4 pt-48 flex flex-col justify-center h-screen">
@@ -18,9 +18,9 @@ const Portfolio = () => {
 
 
         {/* GRID CONTAINER */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8">
+        <div className=" grid sm:grid-cols-1 md:grid-cols-2 gap-8 ">
           {/* Project 1 */}
-          <div style={{backgroundImage: `url(${UTTlandingpage})`}} className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto portfolio-div">
+          <div style={{backgroundImage: `url(${UTTlandingpage})`}} className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto portfolio-div sm:mx-auto ">
             {/* HOVER EFFECTS */}
             <div className="text-center rounded-lg px-4 py-3 m-2 opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
@@ -83,7 +83,7 @@ const Portfolio = () => {
           </div>
 
           {/* Project 4 */}
-          <div style={{backgroundImage: `url(${venuesartistslandingpage})`}} className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto portfolio-div">
+          <div style={{ backgroundImage: `url(${venuesartistslandingpage})`}} className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto portfolio-div ">
 
             {/* HOVER EFFECTS */}
             <div className="text-center rounded-lg px-4 py-3 m-2 opacity-0 group-hover:opacity-100">
