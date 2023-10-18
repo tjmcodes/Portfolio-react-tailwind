@@ -31,7 +31,7 @@ const Portfolio = () => {
                 <a href="https://tjmcodes.github.io/Ultimate-Tic-Tac-Toe/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/tjmcodes/Ultimate-Tic-Tac-Toe">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -54,7 +54,7 @@ const Portfolio = () => {
                 <a href="https://main--ephemeral-salmiakki-7db874.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/tjmcodes/Project-2">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -75,7 +75,7 @@ const Portfolio = () => {
                 <a href="https://myfoundsounds-v2.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/tjmcodes/Project-3-MERN-Frontend">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -95,7 +95,7 @@ const Portfolio = () => {
                 <a href="https://venuesandartists.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/tjmcodes/Project-4-Backend">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-accent4 font-bold text-lg">Code</button>
                 </a>
               </div>
