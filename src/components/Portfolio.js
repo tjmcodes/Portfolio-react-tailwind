@@ -9,7 +9,7 @@ const Portfolio = () => {
     <div name='Portfolio' className="px-0 sm:pt-64 sm:px-2 w-full h-screen text-cream bg-dark">
 
       {/* Title */}
-      <div className="max-w-[1000px] mx-auto p-4 pt-48 sm:pt-72 flex flex-col justify-center h-screen">
+      <div className="max-w-[1000px] mx-auto p-4 pt-4 sm:pt-72 flex flex-col justify-center h-screen">
         <div className="pb-8 sm:pb-2">
           <p className="text-4xl font-bold inline border-b-4 text-cream border-accent4">Portfolio</p>
           <p className="text-green py-6">Check out my recent projects below</p>
